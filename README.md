@@ -2,7 +2,7 @@
 
 ## Hyrje
 
-Kjo është faqja e repository-t në GitHub për projektin _PHP: The Right Way_.
+Kjo është faqja e repository-t në GitHub për projektin _PHP: Mënyra e saktë_.
 
 * Kjo faqje është një projekt i ndërtuar me Jekyll.
 * Çdo seksion dhe nën-seksion jane skedare Markdown që ndodhen në `_posts/`.
@@ -11,7 +11,7 @@ Kjo është faqja e repository-t në GitHub për projektin _PHP: The Right Way_.
 
 ## Përhap fjalën!
 
-_PHP: The Right Way_ ka imazhe reklamimi që mund ti përdorni në faqjen tuaj. Tregoni mbështetjen tuaj duke ndihmuar
+_PHP: Mënyra e saktë_ ka imazhe reklamimi që mund ti përdorni në faqjen tuaj. Tregoni mbështetjen tuaj duke ndihmuar
 zhvilluesit PHP të rinj të gjejnë informacion të mirë!
 
 [Shikoni imazhet reklamë](http://sq.phptherightway.com/banners.html)
@@ -56,7 +56,7 @@ zhvilluesit PHP të rinj të gjejnë informacion të mirë!
 
 ### Përkthime
 
-Nëse jeni të interesuar të përktheni _PHP: The Right Way_, bëjini fork këtij repo-s në GitHub dhe publikoni fork-un tuaj lokal në llogarinë tuaj të GitHub Pages. Do të vendosim një link nga dokumenti parësor.
+Nëse jeni të interesuar të përktheni _PHP: Mënyra e saktë_, bëjini fork këtij repo-s në GitHub dhe publikoni fork-un tuaj lokal në llogarinë tuaj të GitHub Pages. Do të vendosim një link nga dokumenti parësor.
 
 Për të shmangur framengtim si dhe konfuzion të lexuesit, ju lutem zgjidhni një nga këto alternativat:
 
