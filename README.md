@@ -1,6 +1,6 @@
 # PHP: Mënyra e saktë
 
-## Overview
+## Hyrje
 
 Kjo është faqja e repository-t në GitHub për projektin _PHP: The Right Way_.
 
