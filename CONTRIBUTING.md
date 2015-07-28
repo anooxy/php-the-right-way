@@ -1,112 +1,108 @@
-# Contributing to PHP The Right Way
+# Kontribuoni tek PHP Mënyra e saktë
 
-Enjoy [PHP The Right Way](http://phptherightway.com) and want to get 
-involved? Great! There are plenty of ways you can help out.
+Ju pëlqen [PHP The Right Way](http://phptherightway.com) dhe doni të 
+përfshiheni në këtë projekt? Fantastike! Ka disa mënyra se si mund të ndihmoni.
 
-Please take a moment to review this document in order to make the contribution
-process easy and effective for everyone involved.
+Ju lutemi kushtojini një moment këtij dokumenti në mënyrë që të kryeni procesin 
+e kontribuimit sa më lehtë dhe efektivisht për të gjithë që janë të përfshirë tek ky projekt.
 
-Following these guidelines helps to communicate that you respect the time of
-the developers managing and developing this open source project. In return,
-they should reciprocate that respect in addressing your issue or assessing
-patches and features.
+Duke ndjekur këto këshilla tregoni që respektoni kohën që zhvilluesit kushtojnë 
+për të menaxhuar dhe zhvilluar këtë projekt me burim të hapur. Në këmbim, do t'ju 
+këmbehet reciprokisht respekti tek adresimi i problemeve tuaja ose marrja parasysh 
+e patch-eve dhe funksionaliteteve të reja.
 
+## Përdorimi i ndjekësit të problemeve
 
-## Using the issue tracker
+[Ndjekësi Problemeve](https://github.com/anooxy/php-the-right-way/issues) është 
+kanali i preferuar per këto ndryshime: probleme gërmëzimi, ndryshime fjalësh, përmbajtje 
+të re dhe [krijimin e pull requests](#pull-requests), por ju lutemi respektoni 
+kufizimet e mëposhtme:
 
-The [issue tracker](https://github.com/codeguy/php-the-right-way/issues) is
-the preferred channel for changes: spelling mistakes, wording changes, new 
-content and generally [submitting pull requests](#pull-requests), but please 
-respect the following restrictions:
+* Ju lutemi **mos** përdorni ndjekësin e problemeve për kërkesa suporti personale (përdorni 
+  [Stack Overflow](http://stackoverflow.com/questions/tagged/php) ose IRC).
 
-* Please **do not** use the issue tracker for personal support requests (use
-  [Stack Overflow](http://stackoverflow.com/questions/tagged/php) or IRC).
-
-* Please **do not** derail or troll issues. Keep the discussion on topic and
-  respect the opinions of others.
-
+* Ju lutemi **mos** dilni nga tema ose të talleni me problemet. Ruajeni diskutimin brënda temës 
+  dhe respektoni mendimet e te tjerëve.
 
 <a name="pull-requests"></a>
 ## Pull Requests
 
-Pull requests are a great way to add new content to PHP The Right Way, as well 
-as updating any browser issues or other style changes. Pretty much any sort of 
-change is accepted if seen as constructive.
+Pull requests janë një mënyrë shumë e mirë për të shtuar përmbajtje tek PHP Mënyra e saktë, 
+si dhe të përditësosh çdo problem shfletuesi ose ndryshime në stilim. Pothuajse 
+çdo lloj ndryshim është i mirëpritur nëse shihet si konstruktiv. 
 
-Adhering to the following this process is the best way to get your work
-included in the project:
+Ndjekja e procesit të mëposhtëm është mënyra më e mirë për të përfshirë 
+punën tuaj në këtë projekt:
 
-1. [Fork](http://help.github.com/fork-a-repo/) the project, clone your fork,
-   and configure the remotes:
-
+1. Bëni [fork](http://help.github.com/fork-a-repo/) projektin, klononi fork-un, 
+   dhe konfiguroni remotes:
+   
    ```bash
-   # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/php-the-right-way.git
-   # Navigate to the newly cloned directory
-   cd php-the-right-way
-   # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/codeguy/php-the-right-way.git
-   ```
+      # Klononi fork-un tuaj të repos në direktorinë aktuale
+      git clone https://github.com/<your-username>/php-the-right-ëay.git
+      # Shkoni tek direktoria e klonuar
+      cd php-the-right-way
+      # Jepjani repo-n origjinal një remote të quajtur "upstream"
+      git remote add upstream https://github.com/anooxy/php-the-right-way.git
+      ```
 
-2. If you cloned a while ago, get the latest changes from upstream:
+2. Nëse keni klonuar kohë më parë, merrni ndryshimet e fundit nga upstream:
 
    ```bash
    git checkout gh-pages
    git pull upstream gh-pages
    ```
 
-3. Create a new topic branch (off the main project development branch) to
-   contain your change or fix:
+3. Krijoni një branch temë të ri (prej branch-it kryesor të projektit) që 
+   të permbajë ndryshimin ose rregullimin tuaj:
 
    ```bash
    git checkout -b <topic-branch-name>
    ```
 
-4. Install the [Jekyll](https://github.com/jekyll/jekyll/) gem to preview locally.
+4. Instaloni gem-in [Jekyll](https://github.com/jekyll/jekyll/) për ta parë projektin lokalisht.
 
-5. Commit your changes in logical chunks. Please adhere to these [git commit
-   message guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
-   or your content is unlikely be merged into the main project. Use Git's
+5. Bëni commit ndryshimet tuaja në copëza llogjike. Ju lutem ndiqni rregullat tek 
+   [git commit message guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+   përndryshe përmbajtja juaj ka shumë gjasë të mos shkrihet me projektin kryesor. Përdorni
    [interactive rebase](https://help.github.com/articles/interactive-rebase)
-   feature to tidy up your commits before making them public.
+   të Git-it për të rregulluar commit-et tuaja para se ti bëni publike.
 
-6. Locally merge (or rebase) the upstream development branch into your topic branch:
+6. Bëni merge (ose rebase) branch-in në upstream tek branchi juaj lokalisht:
 
    ```bash
    git pull [--rebase] upstream gh-pages
    ```
 
-7. Push your topic branch up to your fork:
+7. Bëni push branchin tuaj tek forku juaj:
 
    ```bash
    git push origin <topic-branch-name>
    ```
 
-8. [Open a Pull Request](https://help.github.com/articles/using-pull-requests/)
-    with a clear title and description.
+8. [Hapni një Pull Request](https://help.github.com/articles/using-pull-requests/)
+   me një titull dhe përshkrim të qartë.
 
+## Termat e Kontribuimit dhe Përdorimi
 
-## Contribution Agreement and Usage
+Duke krijuar një pull request tek ky repo, ju pranoni që ti lejoni pronarëve të projektit
+të licensojnë punën tuaj sipas [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/).
 
-By submitting a pull request to this repository, you agree to allow the project 
-owners to license your work under the the terms of the [Creative Commons Attribution-NonCommercial-ShareAlike
-3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/).
-
-The same content and license will be used for all PHP The Right Way publications,
-including - but not limited to:
+Po e njëjta përmbajtje dhe license do përdoret per çdo publikim të PHP Mënyra e saktë, 
+përfshirë këtu - dhe jo limituar tek:
 
 * [phptherightway.com](http://phptherightway.com)
-* Translations of phptherightway.com
+* Përkthime të phptherightway.com
 * [LeanPub: PHP The Right Way](https://leanpub.com/phptherightway/)
-* Translations of "LeanPub: PHP The Right Way"
+* Përkthime të "LeanPub: PHP The Right Way"
 
-All content is completely free now, and always will be.
+Çdo përmbajtje do jëtë gjithmonë falas tani, dhe përgjithmonë.
 
-## Contributor Style Guide
+## Guida Stilit e Kontrubuesit
 
-1. Use American English spelling (*primary English repo only*)
-2. Use four (4) spaces to indent text; do not use tabs
-3. Wrap all text to 120 characters
-4. Code samples should adhere to PSR-1 or higher
-5. Use [GitHub Flavored Markdown](http://github.github.com/github-flavored-markdown/) for all content
-6. Use language agnostic urls when refering to external websites such as the [php.net](http://php.net/urlhowto.php) manual
+1. Përdorni gërmezim Shqiptar
+2. Përdorni katër (4) hapësira për të berë indent tekstin; mos përdorni tab
+3. Maksimumi rreshtit të jetë 120 karaktere
+4. Shëmbujt e kodeve duhet të ndjekin rregullat PSR-1 ose më sipër
+5. Përdorni [GitHub Flavored Markdown](http://github.github.com/github-flavored-markdown/) për cdo përmbajtje
+6. Përdorni URL agnostike nga ana gjuhësore kur i referoheni faqjeve eksternal si manuali [php.net](http://php.net/urlhoëto.php)
