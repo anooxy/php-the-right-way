@@ -105,4 +105,4 @@ përfshirë këtu - dhe jo limituar tek:
 3. Maksimumi i një rreshti të jetë 120 karaktere.
 4. Shëmbujt e kodit duhet te ndjekin standartin PSR-1 e sipër.
 5. Përdorni [GitHub Flavored Markdown](http://github.github.com/github-flavored-markdown/) për cdo përmbajtje
-6. Përdorni URL agnostike nga ana gjuhësore kur i referoheni faqjeve eksternal si manuali [php.net](http://php.net/urlhoëto.php)
+6. Përdorni URL agnostike nga ana gjuhësore kur i referoheni faqjeve eksternal si manuali [php.net](http://php.net/urlhowto.php)
