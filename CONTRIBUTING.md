@@ -98,11 +98,11 @@ përfshirë këtu - dhe jo limituar tek:
 
 Çdo përmbajtje do jëtë gjithmonë falas tani, dhe përgjithmonë.
 
-## Guida Stilit e Kontrubuesit
+## Guida Stilit për Kontribuim
 
-1. Përdorni gërmezim Shqiptar
-2. Përdorni katër (4) hapësira për të berë indent tekstin; mos përdorni tab
-3. Maksimumi rreshtit të jetë 120 karaktere
-4. Shëmbujt e kodeve duhet të ndjekin rregullat PSR-1 ose më sipër
+1. Përdorni drejtshkrim Shqip (*vetëm për repo-n në Shqip*)
+2. Përdorni katër (4) hapësira për të indent-uar tekstin; mos përdorni tab.
+3. Maksimumi i një rreshti të jetë 120 karaktere.
+4. Shëmbujt e kodit duhet te ndjekin standartin PSR-1 e sipër.
 5. Përdorni [GitHub Flavored Markdown](http://github.github.com/github-flavored-markdown/) për cdo përmbajtje
 6. Përdorni URL agnostike nga ana gjuhësore kur i referoheni faqjeve eksternal si manuali [php.net](http://php.net/urlhoëto.php)
